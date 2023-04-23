@@ -8,7 +8,7 @@ import requests
 import json
 
 def get_weather():
-    apiKey = "710cf3fcc7503954c4b6bc18b9f2030c"
+    apiKey = "apikey"
     lat, lng=get_lat_lng.get_lat_lng()#lat, lng값 가져옴키 값이 안에 있음.
 
     api = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lng}&appid={apiKey}"
