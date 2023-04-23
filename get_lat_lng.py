@@ -9,7 +9,7 @@ from geopy.geocoders import Nominatim
 
 def get_lat_lng():
 
-    GOOGLE_API_KEY="AIzaSyAK7mtHLoSolHqlJnWI3yk5nw3BOiLyu1w"
+    GOOGLE_API_KEY="apikey"
 
     url = f'https://www.googleapis.com/geolocation/v1/geolocate?key={GOOGLE_API_KEY}'
     data = {
